@@ -19,19 +19,26 @@ class ViewController: UIViewController {
     func createUI() {
         view.backgroundColor = .white
         
-        let blurView  = NeonBlurView()
-        blurView.colorTint = .black
-        blurView.colorTintAlpha = 0.2
-        blurView.blurRadius = 30
-        blurView.scale = 1
-        view.addSubview(blurView)
-        blurView.snp.makeConstraints { make in
-            make.center.equalToSuperview()
-            make.height.width.equalTo(200)
+        let button = NeonButton(type: .system)
+        button.setTitle("SHOW FULL SCREEN ANIMATION", for: .normal)
+        button.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
+        view.addSubview(button)
+        
+        button.snp.makeConstraints { make in
+            make.centerX.equalToSuperview()
+            make.bottom.equalToSuperview().inset(100)
+            make.width.equalTo(250)
+            make.height.equalTo(50)
         }
         
     }
     
+    @objc func buttonTapped(_ sender : NeonButton) {
+        LottieManager.showFullScreenLottie(animation: .downloading, color: .red, playOnce: false)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            LottieManager.removeFullScreenLottie()
+        }
+    }
     
 }
 
