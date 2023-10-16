@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="by0-gS-CYg">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Notification_Center" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Encrypted Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="y7W-S9-Uha">
+                                <rect key="frame" x="19.666666666666657" y="443.66666666666669" width="353.66666666666674" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Code to Decrypt It" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7oW-q9-oxR">
+                                <rect key="frame" x="19.666666666666657" y="290.33333333333331" width="353.66666666666674" height="25.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDq-c9-END">
+                                <rect key="frame" x="118" y="493.66666666666669" width="157" height="42.333333333333314"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="DECRYPT"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ITC-rn-LXa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WDq-c9-END" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1X8-8t-jjF"/>
+                            <constraint firstItem="y7W-S9-Uha" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="5lg-hb-BcJ"/>
+                            <constraint firstItem="y7W-S9-Uha" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="COg-B0-0Zn"/>
+                            <constraint firstItem="y7W-S9-Uha" firstAttribute="top" secondItem="7oW-q9-oxR" secondAttribute="bottom" constant="128" id="InC-7R-f3c"/>
+                            <constraint firstItem="WDq-c9-END" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.4" id="JW4-9W-XzM"/>
+                            <constraint firstItem="7oW-q9-oxR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="N7m-CT-FCV"/>
+                            <constraint firstItem="7oW-q9-oxR" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="SOT-4C-7tV"/>
+                            <constraint firstItem="WDq-c9-END" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="WbC-Ad-BHC"/>
+                            <constraint firstItem="y7W-S9-Uha" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0399061" id="YUh-Rq-hSy"/>
+                            <constraint firstItem="WDq-c9-END" firstAttribute="top" secondItem="y7W-S9-Uha" secondAttribute="bottom" constant="16" id="j6C-eY-p1K"/>
+                            <constraint firstItem="y7W-S9-Uha" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="yys-xy-7bK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="3nf-ND-HeR"/>
+                    <connections>
+                        <outlet property="codeTF" destination="y7W-S9-Uha" id="guz-PP-OP6"/>
+                        <outlet property="decryptButton" destination="WDq-c9-END" id="zpd-ID-a3h"/>
+                        <segue destination="s9M-sP-JAl" kind="show" identifier="toSecondVC" id="cti-N0-bn5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066.4122137404579" y="3.5211267605633805"/>
+        </scene>
+        <!--SecondVC-->
+        <scene sceneID="34N-Xl-ltN">
+            <objects>
+                <viewController id="s9M-sP-JAl" customClass="SecondVC" customModule="Notification_Center" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EL3-Wy-707">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3p-tr-hXJ">
+                                <rect key="frame" x="118" y="418" width="157" height="85"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="84"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Decrypted code will be shown here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="151-WO-Lai">
+                                <rect key="frame" x="19.666666666666657" y="536" width="353.66666666666674" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IvX-78-1nq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="S3p-tr-hXJ" firstAttribute="height" secondItem="EL3-Wy-707" secondAttribute="height" multiplier="0.1" id="3h3-Qi-XBF"/>
+                            <constraint firstItem="151-WO-Lai" firstAttribute="centerX" secondItem="IvX-78-1nq" secondAttribute="centerX" id="7Aj-Tn-b6v"/>
+                            <constraint firstItem="151-WO-Lai" firstAttribute="height" secondItem="EL3-Wy-707" secondAttribute="height" multiplier="0.0246479" id="JJe-fT-ke0"/>
+                            <constraint firstItem="S3p-tr-hXJ" firstAttribute="width" secondItem="EL3-Wy-707" secondAttribute="width" multiplier="0.4" id="MgK-Do-Ndf"/>
+                            <constraint firstItem="S3p-tr-hXJ" firstAttribute="centerX" secondItem="IvX-78-1nq" secondAttribute="centerX" id="dO9-3O-8my"/>
+                            <constraint firstItem="151-WO-Lai" firstAttribute="top" secondItem="S3p-tr-hXJ" secondAttribute="bottom" constant="33" id="fkP-mv-Qa5"/>
+                            <constraint firstItem="151-WO-Lai" firstAttribute="width" secondItem="EL3-Wy-707" secondAttribute="width" multiplier="0.9" id="hlG-g2-fQd"/>
+                            <constraint firstItem="S3p-tr-hXJ" firstAttribute="centerY" secondItem="IvX-78-1nq" secondAttribute="centerY" id="wEw-aI-ePK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cJJ-Mn-V9i"/>
+                    <connections>
+                        <outlet property="codeLabel" destination="151-WO-Lai" id="YNk-5F-2Kh"/>
+                        <outlet property="timerLabel" destination="S3p-tr-hXJ" id="1JX-w8-lwi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vVS-Z2-1c5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1866.4122137404579" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="r8l-Xx-KZP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="by0-gS-CYg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Sus-Om-ytk">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="y5m-4L-N8x"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VAv-lM-rEn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630C62802ACC19FB00FD48F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C627F2ACC19FB00FD48F8 /* AppDelegate.swift */; };
+		630C62822ACC19FB00FD48F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C62812ACC19FB00FD48F8 /* SceneDelegate.swift */; };
+		630C62842ACC19FB00FD48F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C62832ACC19FB00FD48F8 /* ViewController.swift */; };
+		630C62892ACC19FE00FD48F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630C62882ACC19FE00FD48F8 /* Assets.xcassets */; };
+		630C628C2ACC19FE00FD48F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630C628A2ACC19FE00FD48F8 /* LaunchScreen.storyboard */; };
+		630C62972ACC19FE00FD48F8 /* ComedyClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C62962ACC19FE00FD48F8 /* ComedyClubTests.swift */; };
+		630C62A12ACC19FE00FD48F8 /* ComedyClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C62A02ACC19FE00FD48F8 /* ComedyClubUITests.swift */; };
+		630C62A32ACC19FE00FD48F8 /* ComedyClubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C62A22ACC19FE00FD48F8 /* ComedyClubUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		630C62932ACC19FE00FD48F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 630C62742ACC19FB00FD48F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630C627B2ACC19FB00FD48F8;
+			remoteInfo = ComedyClub;
+		};
+		630C629D2ACC19FE00FD48F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 630C62742ACC19FB00FD48F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630C627B2ACC19FB00FD48F8;
+			remoteInfo = ComedyClub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		630C627C2ACC19FB00FD48F8 /* ComedyClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComedyClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		630C627F2ACC19FB00FD48F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		630C62812ACC19FB00FD48F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		630C62832ACC19FB00FD48F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		630C62882ACC19FE00FD48F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		630C628B2ACC19FE00FD48F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		630C628D2ACC19FE00FD48F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630C62922ACC19FE00FD48F8 /* ComedyClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComedyClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		630C62962ACC19FE00FD48F8 /* ComedyClubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComedyClubTests.swift; sourceTree = "<group>"; };
+		630C629C2ACC19FE00FD48F8 /* ComedyClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComedyClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		630C62A02ACC19FE00FD48F8 /* ComedyClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComedyClubUITests.swift; sourceTree = "<group>"; };
+		630C62A22ACC19FE00FD48F8 /* ComedyClubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComedyClubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		630C62792ACC19FB00FD48F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C628F2ACC19FE00FD48F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C62992ACC19FE00FD48F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		630C62732ACC19FB00FD48F8 = {
+			isa = PBXGroup;
+			children = (
+				630C627E2ACC19FB00FD48F8 /* ComedyClub */,
+				630C62952ACC19FE00FD48F8 /* ComedyClubTests */,
+				630C629F2ACC19FE00FD48F8 /* ComedyClubUITests */,
+				630C627D2ACC19FB00FD48F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		630C627D2ACC19FB00FD48F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				630C627C2ACC19FB00FD48F8 /* ComedyClub.app */,
+				630C62922ACC19FE00FD48F8 /* ComedyClubTests.xctest */,
+				630C629C2ACC19FE00FD48F8 /* ComedyClubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		630C627E2ACC19FB00FD48F8 /* ComedyClub */ = {
+			isa = PBXGroup;
+			children = (
+				630C627F2ACC19FB00FD48F8 /* AppDelegate.swift */,
+				630C62812ACC19FB00FD48F8 /* SceneDelegate.swift */,
+				630C62832ACC19FB00FD48F8 /* ViewController.swift */,
+				630C62882ACC19FE00FD48F8 /* Assets.xcassets */,
+				630C628A2ACC19FE00FD48F8 /* LaunchScreen.storyboard */,
+				630C628D2ACC19FE00FD48F8 /* Info.plist */,
+			);
+			path = ComedyClub;
+			sourceTree = "<group>";
+		};
+		630C62952ACC19FE00FD48F8 /* ComedyClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				630C62962ACC19FE00FD48F8 /* ComedyClubTests.swift */,
+			);
+			path = ComedyClubTests;
+			sourceTree = "<group>";
+		};
+		630C629F2ACC19FE00FD48F8 /* ComedyClubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				630C62A02ACC19FE00FD48F8 /* ComedyClubUITests.swift */,
+				630C62A22ACC19FE00FD48F8 /* ComedyClubUITestsLaunchTests.swift */,
+			);
+			path = ComedyClubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		630C627B2ACC19FB00FD48F8 /* ComedyClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630C62A62ACC19FE00FD48F8 /* Build configuration list for PBXNativeTarget "ComedyClub" */;
+			buildPhases = (
+				630C62782ACC19FB00FD48F8 /* Sources */,
+				630C62792ACC19FB00FD48F8 /* Frameworks */,
+				630C627A2ACC19FB00FD48F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComedyClub;
+			productName = ComedyClub;
+			productReference = 630C627C2ACC19FB00FD48F8 /* ComedyClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		630C62912ACC19FE00FD48F8 /* ComedyClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630C62A92ACC19FE00FD48F8 /* Build configuration list for PBXNativeTarget "ComedyClubTests" */;
+			buildPhases = (
+				630C628E2ACC19FE00FD48F8 /* Sources */,
+				630C628F2ACC19FE00FD48F8 /* Frameworks */,
+				630C62902ACC19FE00FD48F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630C62942ACC19FE00FD48F8 /* PBXTargetDependency */,
+			);
+			name = ComedyClubTests;
+			productName = ComedyClubTests;
+			productReference = 630C62922ACC19FE00FD48F8 /* ComedyClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		630C629B2ACC19FE00FD48F8 /* ComedyClubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630C62AC2ACC19FE00FD48F8 /* Build configuration list for PBXNativeTarget "ComedyClubUITests" */;
+			buildPhases = (
+				630C62982ACC19FE00FD48F8 /* Sources */,
+				630C62992ACC19FE00FD48F8 /* Frameworks */,
+				630C629A2ACC19FE00FD48F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630C629E2ACC19FE00FD48F8 /* PBXTargetDependency */,
+			);
+			name = ComedyClubUITests;
+			productName = ComedyClubUITests;
+			productReference = 630C629C2ACC19FE00FD48F8 /* ComedyClubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		630C62742ACC19FB00FD48F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					630C627B2ACC19FB00FD48F8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					630C62912ACC19FE00FD48F8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 630C627B2ACC19FB00FD48F8;
+					};
+					630C629B2ACC19FE00FD48F8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 630C627B2ACC19FB00FD48F8;
+					};
+				};
+			};
+			buildConfigurationList = 630C62772ACC19FB00FD48F8 /* Build configuration list for PBXProject "ComedyClub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 630C62732ACC19FB00FD48F8;
+			productRefGroup = 630C627D2ACC19FB00FD48F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630C627B2ACC19FB00FD48F8 /* ComedyClub */,
+				630C62912ACC19FE00FD48F8 /* ComedyClubTests */,
+				630C629B2ACC19FE00FD48F8 /* ComedyClubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		630C627A2ACC19FB00FD48F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630C628C2ACC19FE00FD48F8 /* LaunchScreen.storyboard in Resources */,
+				630C62892ACC19FE00FD48F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C62902ACC19FE00FD48F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C629A2ACC19FE00FD48F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		630C62782ACC19FB00FD48F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630C62842ACC19FB00FD48F8 /* ViewController.swift in Sources */,
+				630C62802ACC19FB00FD48F8 /* AppDelegate.swift in Sources */,
+				630C62822ACC19FB00FD48F8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C628E2ACC19FE00FD48F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630C62972ACC19FE00FD48F8 /* ComedyClubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C62982ACC19FE00FD48F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630C62A12ACC19FE00FD48F8 /* ComedyClubUITests.swift in Sources */,
+				630C62A32ACC19FE00FD48F8 /* ComedyClubUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		630C62942ACC19FE00FD48F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 630C627B2ACC19FB00FD48F8 /* ComedyClub */;
+			targetProxy = 630C62932ACC19FE00FD48F8 /* PBXContainerItemProxy */;
+		};
+		630C629E2ACC19FE00FD48F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 630C627B2ACC19FB00FD48F8 /* ComedyClub */;
+			targetProxy = 630C629D2ACC19FE00FD48F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		630C628A2ACC19FE00FD48F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630C628B2ACC19FE00FD48F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		630C62A42ACC19FE00FD48F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		630C62A52ACC19FE00FD48F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		630C62A72ACC19FE00FD48F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 637FC6BUKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ComedyClub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekenozlu.ComedyClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		630C62A82ACC19FE00FD48F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 637FC6BUKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ComedyClub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekenozlu.ComedyClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		630C62AA2ACC19FE00FD48F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 637FC6BUKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekenozlu.ComedyClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComedyClub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ComedyClub";
+			};
+			name = Debug;
+		};
+		630C62AB2ACC19FE00FD48F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 637FC6BUKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekenozlu.ComedyClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComedyClub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ComedyClub";
+			};
+			name = Release;
+		};
+		630C62AD2ACC19FE00FD48F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 637FC6BUKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekenozlu.ComedyClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ComedyClub;
+			};
+			name = Debug;
+		};
+		630C62AE2ACC19FE00FD48F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 637FC6BUKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekenozlu.ComedyClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ComedyClub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		630C62772ACC19FB00FD48F8 /* Build configuration list for PBXProject "ComedyClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630C62A42ACC19FE00FD48F8 /* Debug */,
+				630C62A52ACC19FE00FD48F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630C62A62ACC19FE00FD48F8 /* Build configuration list for PBXNativeTarget "ComedyClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630C62A72ACC19FE00FD48F8 /* Debug */,
+				630C62A82ACC19FE00FD48F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630C62A92ACC19FE00FD48F8 /* Build configuration list for PBXNativeTarget "ComedyClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630C62AA2ACC19FE00FD48F8 /* Debug */,
+				630C62AB2ACC19FE00FD48F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630C62AC2ACC19FE00FD48F8 /* Build configuration list for PBXNativeTarget "ComedyClubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630C62AD2ACC19FE00FD48F8 /* Debug */,
+				630C62AE2ACC19FE00FD48F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 630C62742ACC19FB00FD48F8 /* Project object */;
+}
