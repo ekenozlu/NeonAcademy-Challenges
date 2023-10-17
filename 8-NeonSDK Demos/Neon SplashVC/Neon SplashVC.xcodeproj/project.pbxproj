@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63E3BFD62ADE6E9400893199 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E3BFD52ADE6E9400893199 /* AppDelegate.swift */; };
+		63E3BFDA2ADE6E9400893199 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E3BFD92ADE6E9400893199 /* ViewController.swift */; };
+		63E3BFDF2ADE6E9600893199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E3BFDE2ADE6E9600893199 /* Assets.xcassets */; };
+		63E3BFE22ADE6E9600893199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E3BFE02ADE6E9600893199 /* LaunchScreen.storyboard */; };
+		63E3BFEB2ADE6F2A00893199 /* NeonSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 63E3BFEA2ADE6F2A00893199 /* NeonSDK */; };
+		63E3BFED2ADE6F9700893199 /* PaywallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E3BFEC2ADE6F9700893199 /* PaywallVC.swift */; };
+		63E3BFEF2ADE6FA700893199 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E3BFEE2ADE6FA700893199 /* OnboardingVC.swift */; };
+		63E3BFF12ADE6FBD00893199 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E3BFF02ADE6FBD00893199 /* SplashVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63E3BFD22ADE6E9400893199 /* Neon SplashVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neon SplashVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E3BFD52ADE6E9400893199 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63E3BFD92ADE6E9400893199 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63E3BFDE2ADE6E9600893199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63E3BFE12ADE6E9600893199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63E3BFE32ADE6E9600893199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E3BFEC2ADE6F9700893199 /* PaywallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallVC.swift; sourceTree = "<group>"; };
+		63E3BFEE2ADE6FA700893199 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		63E3BFF02ADE6FBD00893199 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63E3BFCF2ADE6E9400893199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E3BFEB2ADE6F2A00893199 /* NeonSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63E3BFC92ADE6E9400893199 = {
+			isa = PBXGroup;
+			children = (
+				63E3BFD42ADE6E9400893199 /* Neon SplashVC */,
+				63E3BFD32ADE6E9400893199 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63E3BFD32ADE6E9400893199 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63E3BFD22ADE6E9400893199 /* Neon SplashVC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63E3BFD42ADE6E9400893199 /* Neon SplashVC */ = {
+			isa = PBXGroup;
+			children = (
+				63E3BFD52ADE6E9400893199 /* AppDelegate.swift */,
+				63E3BFD92ADE6E9400893199 /* ViewController.swift */,
+				63E3BFDE2ADE6E9600893199 /* Assets.xcassets */,
+				63E3BFE02ADE6E9600893199 /* LaunchScreen.storyboard */,
+				63E3BFE32ADE6E9600893199 /* Info.plist */,
+				63E3BFEC2ADE6F9700893199 /* PaywallVC.swift */,
+				63E3BFEE2ADE6FA700893199 /* OnboardingVC.swift */,
+				63E3BFF02ADE6FBD00893199 /* SplashVC.swift */,
+			);
+			path = "Neon SplashVC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63E3BFD12ADE6E9400893199 /* Neon SplashVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E3BFE62ADE6E9600893199 /* Build configuration list for PBXNativeTarget "Neon SplashVC" */;
+			buildPhases = (
+				63E3BFCE2ADE6E9400893199 /* Sources */,
+				63E3BFCF2ADE6E9400893199 /* Frameworks */,
+				63E3BFD02ADE6E9400893199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neon SplashVC";
+			packageProductDependencies = (
+				63E3BFEA2ADE6F2A00893199 /* NeonSDK */,
+			);
+			productName = "Neon SplashVC";
+			productReference = 63E3BFD22ADE6E9400893199 /* Neon SplashVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63E3BFCA2ADE6E9400893199 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					63E3BFD12ADE6E9400893199 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 63E3BFCD2ADE6E9400893199 /* Build configuration list for PBXProject "Neon SplashVC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63E3BFC92ADE6E9400893199;
+			packageReferences = (
+				63E3BFE92ADE6F2900893199 /* XCRemoteSwiftPackageReference "neon-sdk" */,
+			);
+			productRefGroup = 63E3BFD32ADE6E9400893199 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63E3BFD12ADE6E9400893199 /* Neon SplashVC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63E3BFD02ADE6E9400893199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E3BFE22ADE6E9600893199 /* LaunchScreen.storyboard in Resources */,
+				63E3BFDF2ADE6E9600893199 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63E3BFCE2ADE6E9400893199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E3BFDA2ADE6E9400893199 /* ViewController.swift in Sources */,
+				63E3BFF12ADE6FBD00893199 /* SplashVC.swift in Sources */,
+				63E3BFEF2ADE6FA700893199 /* OnboardingVC.swift in Sources */,
+				63E3BFED2ADE6F9700893199 /* PaywallVC.swift in Sources */,
+				63E3BFD62ADE6E9400893199 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63E3BFE02ADE6E9600893199 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E3BFE12ADE6E9600893199 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63E3BFE42ADE6E9600893199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63E3BFE52ADE6E9600893199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63E3BFE72ADE6E9600893199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 637FC6BUKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Neon SplashVC/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ekenozlu.Neon-SplashVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63E3BFE82ADE6E9600893199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 637FC6BUKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Neon SplashVC/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ekenozlu.Neon-SplashVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63E3BFCD2ADE6E9400893199 /* Build configuration list for PBXProject "Neon SplashVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E3BFE42ADE6E9600893199 /* Debug */,
+				63E3BFE52ADE6E9600893199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E3BFE62ADE6E9600893199 /* Build configuration list for PBXNativeTarget "Neon SplashVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E3BFE72ADE6E9600893199 /* Debug */,
+				63E3BFE82ADE6E9600893199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63E3BFE92ADE6F2900893199 /* XCRemoteSwiftPackageReference "neon-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/neon-apps/neon-sdk.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63E3BFEA2ADE6F2A00893199 /* NeonSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63E3BFE92ADE6F2900893199 /* XCRemoteSwiftPackageReference "neon-sdk" */;
+			productName = NeonSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 63E3BFCA2ADE6E9400893199 /* Project object */;
+}
