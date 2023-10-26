@@ -1,5 +1,5 @@
 # NeonAcademy-Challenges
-Repository fo collecting the Challenges I completed during my Neon Apps internship to become a better and more suitable iOS Developer for team. During 2023 Sep-
+Repository for the Challenges I completed during my Neon Apps internship to become a better and more suitable iOS Developer for team. During 2023 Sep-
 
 ## Challenges Contains:
 1. UIKit, SnapKit, ProgrammaticUI
